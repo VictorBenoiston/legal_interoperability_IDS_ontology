@@ -1,2 +1,2 @@
-# legal_aspects_IDS_ontology
+# legal_interoperability_IDS_ontology
  
