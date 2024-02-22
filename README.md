@@ -27,7 +27,7 @@ This repository contais the complete documentation of the proposed ontology. As 
 propose a systematic approach to document and set goals, granularity, and vocabulary
 for the proposed ontology.
 
-<img width="700" align="center" src="./assets/orsd_1.png">
+<img width="800" align="center" src="./assets/orsd_1.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 <img width="800" align="center" src="./assets/orsd_2.png">
@@ -57,14 +57,16 @@ The Complete lifecycle development of LegIOn-IDS is summarized below:
 ## SPARQL Queries Outcome
 CQ1 (Informal): What are the legal entitlements of the service provider X? (GRIFFO et al., 2021)
 </p>CQ1(Formal): 
-<img width="800" align="center" src="./assets/sparql1.png">
+</p>
+<img align="center" width="800" src="./assets/sparql1.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 Observation: As a placeholder in the question, X is represented by 1 in this example. Hence, retrieving the legal entitlements of the service provider 1, for exemplification.
 
 CQ2 (Informal): What are the legal burdens/lacks of the service provider X? (GRIFFO et al., 2021b)
 </p>CQ2(Formal):
-<img width="800" align="center" src="./assets/sparql2.png">
+</p>
+<img align="center" width="800" src="./assets/sparql2.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 Observation: As a placeholder in the question, X is represented by 1 in this example.
@@ -72,7 +74,8 @@ Hence, retrieving the legal burdens/lacks of the service provider 1, for exempli
 
 CQ3 (Informal): What are the legal entitlements of the service consumer X? (GRIFFO et al., 2021)
 </p>CQ3(Formal):
-<img width="800" align="center" src="./assets/sparql3.png">
+</p>
+<img align="center" width="800" src="./assets/sparql3.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 Observation: As a placeholder in the question, X is represented by 1 in this example.
@@ -80,15 +83,17 @@ Hence, retrieving the legal entitlements of the service consumer 1, for exemplif
 
 CQ4 (Informal): What are the legal burdens/lacks of the service consumer X?(GRIFFO et al., 2021)
 </p>CQ4(Formal):
-<img width="800" align="center" src="./assets/sparql4.png">
+</p>
+<img align="center" width="800" src="./assets/sparql4.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 Observation: As a placeholder in the question, X is represented by 1 in this example. Hence, retrieving the legal burdens/lacks of the service consumer 1, for
 exemplification.
 
 CQ5 (Informal): What are the Interoperability barriers in the service contract X?(EIF)
-<p>CQ5(Formal): 
-<img width="800" align="center" src="./assets/sparql5.png">
+</p>CQ5(Formal): 
+</p>
+<img align="center" width="800" src="./assets/sparql5.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 Observation: As a placeholder in the question, X is represented by 1 in this example. Hence, retrieving the interoperability barriers of the service contract 1, for
@@ -96,39 +101,60 @@ exemplification.
 
 CQ6 (Informal): What contracts represent joint controllership? (EIF)
 </p>CQ6(Formal):
-<img width="600" align="center" src="./assets/sparql6.png">
+</p>
+<img align="center" width="500" src="./assets/sparql6.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 Observation: The outcome is composed of the contracts characterized by the purpose of joint controllership.
 
 CQ7 (Informal): What are the data user’s permissions and duties? (BADER et al., 2020)
 </p>CQ7(Formal)(permissions):
-<img width="800" align="center" src="./assets/sparql7.png">
+</p>
+<img align="center" width="800" src="./assets/sparql7.png">
 <p align=center>Source: Original Authorship (2024)</p>
 and
 CQ7(Formal)(duties):
-<img width="800" align="center" src="./assets/sparql8.png">
+</p>
+<img align="center" width="800" src="./assets/sparql8.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 Observation: Similarly, we propose the requiring of a specific data user, in this example, we retrieved the duties and permission of the service consumer (which is the data user) 2.
 
 CQ8 (Informal): What contracts characterize data rent? (RAM)
 </p>CQ8(Formal):
-<img width="600" align="center" src="./assets/sparql9.png">
-<p align=center>Source: Original Authorship (2024)</p>
+</p>
+<img align="center" width="500" src="./assets/sparql9.png">
+<p>Source: Original Authorship (2024)</p>
 
 Observation: The outcome is composed of the contracts of type Data Rent, which is defined as data as a service.
 
 CQ9 (Informal): WWhat contracts characterize data purchase (RAM)?
 </p>CQ9(Formal):
-<img width="600" align="center" src="./assets/sparql10.png">
-<p align=center>Source: Original Authorship (2024)</p>
+</p>
+<img align="center" width="500" src="./assets/sparql10.png">
+<p>Source: Original Authorship (2024)</p>
 
 Observation: The outcome is composed of the contracts of type Data Purchase.
 
 
 
 ### References
+BADER, S.; PULLMANN, J.; MADER, C.; TRAMP, S.; QUIX, C.; MüLLER, A.;
+AKYüREK, H.; BöCKMANN, M.; IMBUSCH, B.; THEISSEN-LIPP, J.; GEISLER,
+S.; LANGE, C. The International Data Spaces Information Model – An Ontology
+for Sovereign Exchange of Digital Content. In: . [S.l.: s.n.], 2020. p. 176–192. ISBN
+978-3-030-62465-1.
+
+FALBO, R. de A. Sabio: Systematic approach for building ontologies. Onto.
+Com/odise@ Fois, v. 1301, 2014.
+
+GRIFFO, C.; ALMEIDA, J. P. A.; GUIZZARDI, G.; NARDI, J. C. Service
+contract modeling in Enterprise Architecture: An ontology-based approach.
+Information Systems, v. 101, p. 101454, nov. 2021. ISSN 0306-4379. Available in:
+<https://www.sciencedirect.com/science/article/pii/S030643791930506X>
+
 SUáREZ-FIGUEROA, M.; GOMEZ-PEREZ, A.; TERRAZAS, B. V. How to Write
 and Use the Ontology Requirements Specification Document. [S.l.: s.n.], 2009. v. 5871.
 982 p. ISBN 978-3-642-05150-0.
+
+
