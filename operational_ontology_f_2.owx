@@ -1,0 +1,2875 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.legalontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.legalontology">
+    <Prefix name="" IRI="http://www.legalontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="gufo" IRI="http://purl.org/nemo/gufo#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Category"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:IntrinsicMode"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Kind"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Phase"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Role"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coherence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompetitionLaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContractNegotiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContractOffer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContractRequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContractualAgreement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContractualParty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContradictoryRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataConsumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataLicenseModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataProtectionLaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataProtectionNeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Duty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DutyRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoverningLaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IDSCoreParticipant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteroperabilityBarrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteroperabilityCheck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JointController"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalAvailability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalBurdenLack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalEntitlement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalMoment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negotiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonPersonalData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutdatedSecurity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OverRestrictiveObligation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OwnPurpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PermissionRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonalData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Policy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolicyNegotiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessingPurpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProhibitionRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restriction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceConsumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceContract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subjection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeOfContract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsageConsent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsageRight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="gufo:inheresIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="gufo:isComponentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#allows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#allowsAgreement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#compliesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contractHasPolicy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contractHasServiceCosumer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contractHasServiceProvider"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesCoherence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesProcessingPurpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesPurpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesTypeOfContract"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#denies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dutyRuleHasLegalBurdenLack"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dutyRuleHasLegalEntitlement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOwn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obligates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#owns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsOffer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsRequest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#permissionRuleHasLegalEntitlement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perpetualTransfer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prohibitionRuleHasLegalBurdenLack"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ruleHasLegalMoment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temporaryTransfer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contractualPartyHasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasContractEndDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasContractStartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasContractualDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPolicyDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPolicyInformationPoint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPolicyName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRuleConstraint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRuleCreationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRuleDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AppProvider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coherence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CompetitionLaw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compliance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContractNegotiation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContractOffer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContractRequest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContractualAgreement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContractualParty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContradictoryRequirement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataAsAService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataConsumer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataLicenseModel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataOwner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataProtectionLaw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataProtectionNeed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataProvider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataPurchase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataUser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_as_a_service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_purchase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DutyRule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoverningLaw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDSCoreParticipant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Immunity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InteroperabilityBarrier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InteroperabilityCheck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JointController"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joint_controller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegalAvailability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegalBurdenLack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegalEntitlement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegalMoment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Negotiation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NoRight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NonPersonalData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OutdatedSecurity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OverRestrictiveObligation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OwnPurpose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Own_purpose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Permission"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PermissionRule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersonalData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Policy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PolicyNegotiation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProcessingPurpose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProhibitionRule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Restriction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ServiceConsumer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ServiceContract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ServiceProvider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Subjection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TypeOfContract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UsageConsent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UsageRight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#commits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#commits_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#compliesTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dataProviderHasServiceProvider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dataUserHasServiceConsumer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#definesCoherence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disability_over_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disability_to_modify_positions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dutyRuleHasLegalBurdenLack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dutyRuleHasLegalEntitlement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duty_to_confidentiality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duty_to_inform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duty_to_pay_taxes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duty_to_provide_safe_conditions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hasOwn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hasOwn_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#immunity_to_diplomacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#immunity_to_online_platform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#negotiationreflexive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#noright_to_trespass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#noright_to_violate_NDA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#owns"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performedBy_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performsOffer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performsRequest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#permissionRuleHasLegalEntitlement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#permission_to_access_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#permission_to_modify"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#permission_to_publish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#permission_to_subcontract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#permission_to_use_copyrighted_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perpetualTransfer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#power_or_attorney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prohibitionRuleHasLegalBurdenLack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#right_to_freedom_of_speech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#right_to_privacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ruleHasLegalMoment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_consumer_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_consumer_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_consumer_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_contract_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_contract_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_provider_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_provider_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_provider_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#subjection_to_employment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#subjection_to_regulatory_authority"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temporaryTransfer"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#PermissionRule"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Rule"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#allows"/>
+                <Class IRI="#Action"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProcessingPurpose"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Joint_controller"/>
+            <NamedIndividual IRI="#Own_purpose"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypeOfContract"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Data_as_a_service"/>
+            <NamedIndividual IRI="#Data_purchase"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#DutyRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#PermissionRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#ProhibitionRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#Asset"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppProvider"/>
+        <Class IRI="#IDSCoreParticipant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#Action"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#UsageRight"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coherence"/>
+        <Class abbreviatedIRI="gufo:IntrinsicMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coherence"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#definesCoherence"/>
+            </ObjectInverseOf>
+            <Class IRI="#InteroperabilityCheck"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompetitionLaw"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompetitionLaw"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#Compliance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompetitionLaw"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#InteroperabilityCheck"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compliance"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compliance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            </ObjectInverseOf>
+            <Class IRI="#PolicyNegotiation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compliance"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            <Class IRI="#InteroperabilityCheck"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compliance"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#GoverningLaw"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compliance"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#CompetitionLaw"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compliance"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#DataProtectionLaw"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractNegotiation"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractNegotiation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contractHasServiceCosumer"/>
+            <Class IRI="#ServiceConsumer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractNegotiation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contractHasServiceProvider"/>
+            <Class IRI="#ServiceProvider"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractNegotiation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            <Class IRI="#ServiceContract"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractNegotiation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#allowsAgreement"/>
+            <Class IRI="#ContractualAgreement"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractNegotiation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#definesTypeOfContract"/>
+            <Class IRI="#TypeOfContract"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractOffer"/>
+        <Class IRI="#ServiceContract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractRequest"/>
+        <Class IRI="#ServiceContract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractualAgreement"/>
+        <Class IRI="#ServiceContract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractualAgreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            <Class IRI="#ContractNegotiation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractualAgreement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            <Class IRI="#PolicyNegotiation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractualAgreement"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:inheresIn"/>
+            <Class IRI="#UsageConsent"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractualAgreement"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#contractHasServiceCosumer"/>
+            <Class IRI="#ServiceConsumer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractualAgreement"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#contractHasServiceProvider"/>
+            <Class IRI="#ServiceProvider"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContractualParty"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContradictoryRequirement"/>
+        <Class IRI="#InteroperabilityBarrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataConsumer"/>
+        <Class IRI="#IDSCoreParticipant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataLicenseModel"/>
+        <Class IRI="#InteroperabilityBarrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataOwner"/>
+        <Class IRI="#IDSCoreParticipant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataProtectionLaw"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataProtectionLaw"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#Compliance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataProtectionLaw"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#InteroperabilityCheck"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataProtectionNeed"/>
+        <Class IRI="#InteroperabilityBarrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataProvider"/>
+        <Class IRI="#DataOwner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataUser"/>
+        <Class IRI="#DataConsumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disability"/>
+        <Class IRI="#LegalBurdenLack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Duty"/>
+        <Class IRI="#LegalBurdenLack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DutyRule"/>
+        <Class IRI="#Rule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DutyRule"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#Action"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoverningLaw"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoverningLaw"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#Compliance"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IDSCoreParticipant"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunity"/>
+        <Class IRI="#LegalEntitlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityBarrier"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityBarrier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#InteroperabilityCheck"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityCheck"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityCheck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#InteroperabilityBarrier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityCheck"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            <Class IRI="#LegalAvailability"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityCheck"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#definesCoherence"/>
+            <Class IRI="#Coherence"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityCheck"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            </ObjectInverseOf>
+            <Class IRI="#Compliance"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityCheck"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#CompetitionLaw"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilityCheck"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#DataProtectionLaw"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAvailability"/>
+        <Class abbreviatedIRI="gufo:IntrinsicMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAvailability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            </ObjectInverseOf>
+            <Class IRI="#InteroperabilityCheck"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalBurdenLack"/>
+        <Class IRI="#LegalMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalEntitlement"/>
+        <Class IRI="#LegalMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalMoment"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalMoment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#ruleHasLegalMoment"/>
+            </ObjectInverseOf>
+            <Class IRI="#Rule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negotiation"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoRight"/>
+        <Class IRI="#LegalBurdenLack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonPersonalData"/>
+        <Class IRI="#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutdatedSecurity"/>
+        <Class IRI="#InteroperabilityBarrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OverRestrictiveObligation"/>
+        <Class IRI="#InteroperabilityBarrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permission"/>
+        <Class IRI="#LegalEntitlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonalData"/>
+        <Class IRI="#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Policy"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Policy"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:isComponentOf"/>
+            <Class IRI="#Rule"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Policy"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:isComponentOf"/>
+            <Class IRI="#ServiceContract"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolicyNegotiation"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolicyNegotiation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#Rule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolicyNegotiation"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:historicallyDependsOn"/>
+            <Class IRI="#Compliance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolicyNegotiation"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ServiceConsumer"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolicyNegotiation"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ServiceProvider"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power"/>
+        <Class IRI="#LegalEntitlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessingPurpose"/>
+        <Class abbreviatedIRI="gufo:IntrinsicMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProhibitionRule"/>
+        <Class IRI="#Rule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProhibitionRule"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#Action"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restriction"/>
+        <Class IRI="#InteroperabilityBarrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right"/>
+        <Class IRI="#LegalEntitlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rule"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rule"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:isComponentOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Policy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rule"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#PolicyNegotiation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rule"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#ruleHasLegalMoment"/>
+            <Class IRI="#LegalMoment"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceConsumer"/>
+        <Class IRI="#ContractualParty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceConsumer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#PolicyNegotiation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceConsumer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ContractNegotiation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceConsumer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ContractualAgreement"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceConsumer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ServiceContract"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceContract"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceContract"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contractHasServiceCosumer"/>
+            <Class IRI="#ServiceConsumer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceContract"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contractHasServiceProvider"/>
+            <Class IRI="#ServiceProvider"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceContract"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:isComponentOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Policy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceContract"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#allows"/>
+            <Class IRI="#ContractNegotiation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceProvider"/>
+        <Class IRI="#ContractualParty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceProvider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            </ObjectInverseOf>
+            <Class IRI="#PolicyNegotiation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceProvider"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ContractNegotiation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceProvider"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ContractualAgreement"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceProvider"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#ServiceContract"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subjection"/>
+        <Class IRI="#LegalBurdenLack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypeOfContract"/>
+        <Class abbreviatedIRI="gufo:IntrinsicMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypeOfContract"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="gufo:inheresIn"/>
+            <Class IRI="#ContractNegotiation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsageConsent"/>
+        <Class abbreviatedIRI="gufo:IntrinsicMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsageConsent"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectInverseOf>
+                <ObjectProperty abbreviatedIRI="gufo:inheresIn"/>
+            </ObjectInverseOf>
+            <Class IRI="#ContractualAgreement"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsageRight"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsageRight"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="gufo:mediates"/>
+            <Class IRI="#Asset"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="gufo:Category"/>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+        <Class abbreviatedIRI="gufo:IntrinsicMode"/>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <Class abbreviatedIRI="gufo:Phase"/>
+        <Class abbreviatedIRI="gufo:Relator"/>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Compliance"/>
+        <Class IRI="#ContractNegotiation"/>
+        <Class IRI="#InteroperabilityCheck"/>
+        <Class IRI="#Negotiation"/>
+        <Class IRI="#PolicyNegotiation"/>
+        <Class IRI="#ServiceContract"/>
+        <Class IRI="#UsageRight"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <NamedIndividual IRI="#AppProvider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Asset"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Coherence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#CompetitionLaw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Compliance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ContractNegotiation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Phase"/>
+        <NamedIndividual IRI="#ContractOffer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Phase"/>
+        <NamedIndividual IRI="#ContractRequest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Phase"/>
+        <NamedIndividual IRI="#ContractualAgreement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ContractualParty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#ContradictoryRequirement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DataAsAService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <NamedIndividual IRI="#DataConsumer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DataLicenseModel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <NamedIndividual IRI="#DataOwner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#DataProtectionLaw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DataProtectionNeed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <NamedIndividual IRI="#DataProvider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DataPurchase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <NamedIndividual IRI="#DataUser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TypeOfContract"/>
+        <NamedIndividual IRI="#Data_as_a_service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TypeOfContract"/>
+        <NamedIndividual IRI="#Data_purchase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Disability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Duty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#DutyRule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#GoverningLaw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#IDSCoreParticipant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Immunity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#InteroperabilityBarrier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#InteroperabilityCheck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#JointController"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessingPurpose"/>
+        <NamedIndividual IRI="#Joint_controller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#LegalAvailability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Category"/>
+        <NamedIndividual IRI="#LegalBurdenLack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Category"/>
+        <NamedIndividual IRI="#LegalEntitlement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Category"/>
+        <NamedIndividual IRI="#LegalMoment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Negotiation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#NoRight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#NonPersonalData"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#OutdatedSecurity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#OverRestrictiveObligation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#OwnPurpose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessingPurpose"/>
+        <NamedIndividual IRI="#Own_purpose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Permission"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#PermissionRule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#PersonalData"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Category"/>
+        <NamedIndividual IRI="#Policy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#PolicyNegotiation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ProcessingPurpose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ProhibitionRule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#Restriction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Right"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Category"/>
+        <NamedIndividual IRI="#Rule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#ServiceConsumer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ServiceContract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#ServiceProvider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Subjection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#TypeOfContract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#UsageConsent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#UsageRight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#commits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#commits_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#compliesTo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <NamedIndividual IRI="#dataProviderHasServiceProvider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <NamedIndividual IRI="#dataUserHasServiceConsumer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#definesCoherence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disability"/>
+        <NamedIndividual IRI="#disability_over_data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disability"/>
+        <NamedIndividual IRI="#disability_to_modify_positions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <NamedIndividual IRI="#dutyRuleHasLegalBurdenLack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <NamedIndividual IRI="#dutyRuleHasLegalEntitlement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Duty"/>
+        <NamedIndividual IRI="#duty_to_confidentiality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Duty"/>
+        <NamedIndividual IRI="#duty_to_inform"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Duty"/>
+        <NamedIndividual IRI="#duty_to_pay_taxes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Duty"/>
+        <NamedIndividual IRI="#duty_to_provide_safe_conditions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#hasOwn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#hasOwn_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Immunity"/>
+        <NamedIndividual IRI="#immunity_to_diplomacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Immunity"/>
+        <NamedIndividual IRI="#immunity_to_online_platform"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#negotiationreflexive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NoRight"/>
+        <NamedIndividual IRI="#noright_to_trespass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NoRight"/>
+        <NamedIndividual IRI="#noright_to_violate_NDA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#owns"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#performedBy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#performedBy_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#performsOffer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#performsRequest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <NamedIndividual IRI="#permissionRuleHasLegalEntitlement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Permission"/>
+        <NamedIndividual IRI="#permission_to_access_data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Permission"/>
+        <NamedIndividual IRI="#permission_to_modify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Permission"/>
+        <NamedIndividual IRI="#permission_to_publish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Permission"/>
+        <NamedIndividual IRI="#permission_to_subcontract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Permission"/>
+        <NamedIndividual IRI="#permission_to_use_copyrighted_data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#perpetualTransfer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#power_or_attorney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <NamedIndividual IRI="#prohibitionRuleHasLegalBurdenLack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Right"/>
+        <NamedIndividual IRI="#right_to_freedom_of_speech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Right"/>
+        <NamedIndividual IRI="#right_to_privacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:ComparativeRelationshipType"/>
+        <NamedIndividual IRI="#ruleHasLegalMoment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceConsumer"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceConsumer"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceConsumer"/>
+        <NamedIndividual IRI="#service_consumer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceContract"/>
+        <NamedIndividual IRI="#service_contract_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceContract"/>
+        <NamedIndividual IRI="#service_contract_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceProvider"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceProvider"/>
+        <NamedIndividual IRI="#service_provider_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ServiceProvider"/>
+        <NamedIndividual IRI="#service_provider_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subjection"/>
+        <NamedIndividual IRI="#subjection_to_employment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subjection"/>
+        <NamedIndividual IRI="#subjection_to_regulatory_authority"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:MaterialRelationshipType"/>
+        <NamedIndividual IRI="#temporaryTransfer"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#disability_over_data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#disability_to_modify_positions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#duty_to_pay_taxes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#noright_to_trespass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#noright_to_violate_NDA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#immunity_to_diplomacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#right_to_freedom_of_speech"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <NamedIndividual IRI="#right_to_privacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#duty_to_confidentiality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#duty_to_inform"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#duty_to_pay_taxes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#duty_to_provide_safe_conditions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#permission_to_access_data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#permission_to_modify"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#permission_to_publish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#permission_to_subcontract"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <NamedIndividual IRI="#permission_to_use_copyrighted_data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contractHasServiceCosumer"/>
+        <NamedIndividual IRI="#service_contract_1"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contractHasServiceProvider"/>
+        <NamedIndividual IRI="#service_contract_1"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#disability_over_data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#duty_to_pay_taxes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#duty_to_provide_safe_conditions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#immunity_to_diplomacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#immunity_to_online_platform"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#permission_to_access_data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <NamedIndividual IRI="#right_to_freedom_of_speech"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#disability_over_data"/>
+        <Literal>The entity is disable to exclude, modify, or update data.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#disability_over_data"/>
+        <Literal>Disability over data</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#disability_to_modify_positions"/>
+        <Literal>The entity is disable to modify, change, or update legal positions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#disability_to_modify_positions"/>
+        <Literal>Disability to modify legal positions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#duty_to_confidentiality"/>
+        <Literal>The entity must keep certain information confidential.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#duty_to_inform"/>
+        <Literal>The entity must provide relevant information to the data owner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#duty_to_pay_taxes"/>
+        <Literal>The entity has a legal duty to pay taxes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#duty_to_pay_taxes"/>
+        <Literal>Duty to pay taxes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#duty_to_provide_safe_conditions"/>
+        <Literal>The entity has a corporate duty to provide safe working conditions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#duty_to_provide_safe_conditions"/>
+        <Literal>Duty to provide safe conditions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#immunity_to_diplomacy"/>
+        <Literal>The entity has immunity from prosecution as a diplomat.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#immunity_to_diplomacy"/>
+        <Literal>Immunity to diplomacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#immunity_to_online_platform"/>
+        <Literal>The entity has immunity from liability for online platforms.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#immunity_to_online_platform"/>
+        <Literal>Immunity to online platform</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#noright_to_trespass"/>
+        <Literal>There is no right to trespass on private property (physical or non-physical).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#noright_to_trespass"/>
+        <Literal>No Right to trepass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#noright_to_violate_NDA"/>
+        <Literal>There is no right to violate a non-disclosure agreement.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#noright_to_violate_NDA"/>
+        <Literal>No Right to violate a non disclosure agreement</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#permission_to_access_data"/>
+        <Literal>The entity has permission to access restricted data.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#permission_to_access_data"/>
+        <Literal>Permission to access data</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#permission_to_modify"/>
+        <Literal>The entity has permission to modify data</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#permission_to_publish"/>
+        <Literal>The entity has permission to publish articles, posts, and other editorial material about the data in question.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#permission_to_subcontract"/>
+        <Literal>The entity has the permission to subcontract specific tasks or services to thrid-party entities.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#permission_to_use_copyrighted_data"/>
+        <Literal>The entity has permission to use copyrighted material.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#permission_to_use_copyrighted_data"/>
+        <Literal>Permission to use copyrighted data</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+        <Literal>The entity has corporate decision-making power.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#power_of_corporate_decision_making"/>
+        <Literal>Power of corporate decision making</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#power_or_attorney"/>
+        <Literal>The entity has the power of attorney.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#power_or_attorney"/>
+        <Literal>Power of attorney</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#right_to_freedom_of_speech"/>
+        <Literal>The individual has the right to freedom of speech.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#right_to_freedom_of_speech"/>
+        <Literal>Right to freedom of speech</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#right_to_privacy"/>
+        <Literal>The individual has the right to privacy under GDPR.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#right_to_privacy"/>
+        <Literal>Right to Privacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contractualPartyHasName"/>
+        <NamedIndividual IRI="#service_consumer_1"/>
+        <Literal>Service Consumer 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contractualPartyHasName"/>
+        <NamedIndividual IRI="#service_consumer_2"/>
+        <Literal>Service Consumer 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contractualPartyHasName"/>
+        <NamedIndividual IRI="#service_provider_1"/>
+        <Literal>Service Provider 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#subjection_to_employment"/>
+        <Literal>The individual is subject to employment contract terms.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#subjection_to_employment"/>
+        <Literal>Subjection to employment</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <NamedIndividual IRI="#subjection_to_regulatory_authority"/>
+        <Literal>The entity is subject to regulatory authority.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPolicyName"/>
+        <NamedIndividual IRI="#subjection_to_regulatory_authority"/>
+        <Literal>Subjection to regulatory authority</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#allows"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#denies"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasOwn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#obligates"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allows"/>
+        <Class IRI="#PermissionRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allowsAgreement"/>
+        <Class IRI="#ContractNegotiation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#commits"/>
+        <Class IRI="#UsageConsent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#compliesTo"/>
+        <Class IRI="#GoverningLaw"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contractHasPolicy"/>
+        <Class IRI="#ServiceContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contractHasServiceCosumer"/>
+        <Class IRI="#ServiceContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contractHasServiceProvider"/>
+        <Class IRI="#ServiceContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesCoherence"/>
+        <Class IRI="#InteroperabilityCheck"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesProcessingPurpose"/>
+        <Class IRI="#ProcessingPurpose"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesPurpose"/>
+        <Class IRI="#ServiceContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesTypeOfContract"/>
+        <Class IRI="#TypeOfContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#denies"/>
+        <Class IRI="#ProhibitionRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dutyRuleHasLegalBurdenLack"/>
+        <Class IRI="#DutyRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dutyRuleHasLegalEntitlement"/>
+        <Class IRI="#DutyRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <Class IRI="#ServiceConsumer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <Class IRI="#ServiceConsumer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOwn"/>
+        <Class IRI="#ServiceConsumer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOwn"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#obligates"/>
+        <Class IRI="#DutyRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsOffer"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsRequest"/>
+        <Class IRI="#ServiceConsumer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#permissionRuleHasLegalEntitlement"/>
+        <Class IRI="#PermissionRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prohibitionRuleHasLegalBurdenLack"/>
+        <Class IRI="#ProhibitionRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ruleHasLegalMoment"/>
+        <Class IRI="#Rule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#allows"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#allowsAgreement"/>
+        <Class IRI="#ContractualAgreement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#commits"/>
+        <Class IRI="#ServiceConsumer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#commits"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#compliesTo"/>
+        <Class IRI="#GoverningLaw"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contractHasPolicy"/>
+        <Class IRI="#Policy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contractHasServiceCosumer"/>
+        <Class IRI="#ServiceConsumer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contractHasServiceProvider"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesCoherence"/>
+        <Class IRI="#Coherence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesProcessingPurpose"/>
+        <Class IRI="#JointController"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesProcessingPurpose"/>
+        <Class IRI="#OwnPurpose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesPurpose"/>
+        <Class IRI="#ProcessingPurpose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#denies"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dutyRuleHasLegalBurdenLack"/>
+        <Class IRI="#LegalBurdenLack"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dutyRuleHasLegalEntitlement"/>
+        <Class IRI="#LegalEntitlement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLegalBurdenLack"/>
+        <Class IRI="#LegalBurdenLack"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLegalEntitlement"/>
+        <Class IRI="#LegalEntitlement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOwn"/>
+        <Class IRI="#GoverningLaw"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#obligates"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#Asset"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#ServiceConsumer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#ServiceProvider"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsOffer"/>
+        <Class IRI="#ContractOffer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsRequest"/>
+        <Class IRI="#ContractRequest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#permissionRuleHasLegalEntitlement"/>
+        <Class IRI="#LegalEntitlement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perpetualTransfer"/>
+        <Class IRI="#Asset"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prohibitionRuleHasLegalBurdenLack"/>
+        <Class IRI="#LegalBurdenLack"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ruleHasLegalMoment"/>
+        <Class IRI="#LegalMoment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temporaryTransfer"/>
+        <Class IRI="#Asset"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#contractualPartyHasName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasRuleConstraint"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasRuleDescription"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contractualPartyHasName"/>
+        <Class IRI="#ServiceConsumer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contractualPartyHasName"/>
+        <Class IRI="#ServiceProvider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasContractEndDate"/>
+        <Class IRI="#ServiceContract"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasContractStartDate"/>
+        <Class IRI="#ServiceContract"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasContractualDescription"/>
+        <Class IRI="#ContractualAgreement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <Class IRI="#Policy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPolicyInformationPoint"/>
+        <Class IRI="#Policy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPolicyName"/>
+        <Class IRI="#Policy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRuleConstraint"/>
+        <Class IRI="#Rule"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRuleCreationDate"/>
+        <Class IRI="#Rule"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRuleDescription"/>
+        <Class IRI="#Rule"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#contractualPartyHasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasContractEndDate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasContractStartDate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasContractualDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPolicyDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPolicyInformationPoint"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPolicyName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRuleConstraint"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRuleCreationDate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRuleDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Action</IRI>
+        <Literal xml:lang="en">Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AppProvider</IRI>
+        <Literal xml:lang="en">App Provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asset</IRI>
+        <Literal xml:lang="en">Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coherence</IRI>
+        <Literal xml:lang="en">Coherence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CompetitionLaw</IRI>
+        <Literal xml:lang="en">Competition Law</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Compliance</IRI>
+        <Literal xml:lang="en">Compliance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContractNegotiation</IRI>
+        <Literal xml:lang="en">Contract Negotiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContractOffer</IRI>
+        <Literal xml:lang="en">Contract Offer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContractRequest</IRI>
+        <Literal xml:lang="en">Contract Request</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContractualAgreement</IRI>
+        <Literal xml:lang="en">Contractual Agreement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContractualParty</IRI>
+        <Literal xml:lang="en">Contractual Party</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContradictoryRequirement</IRI>
+        <Literal xml:lang="en">Contradictory Requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataConsumer</IRI>
+        <Literal xml:lang="en">Data Consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataLicenseModel</IRI>
+        <Literal xml:lang="en">Data License Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataOwner</IRI>
+        <Literal xml:lang="en">Data Owner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataProtectionLaw</IRI>
+        <Literal xml:lang="en">Data Protection Law</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataProtectionNeed</IRI>
+        <Literal xml:lang="en">Data Protection Need</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataProvider</IRI>
+        <Literal xml:lang="en">Data Provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataUser</IRI>
+        <Literal xml:lang="en">Data User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Disability</IRI>
+        <Literal xml:lang="en">Disability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Duty</IRI>
+        <Literal xml:lang="en">Duty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DutyRule</IRI>
+        <Literal xml:lang="en">Duty Rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GoverningLaw</IRI>
+        <Literal xml:lang="en">Governing Law</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IDSCoreParticipant</IRI>
+        <Literal xml:lang="en">IDS Core Participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Immunity</IRI>
+        <Literal xml:lang="en">Immunity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InteroperabilityBarrier</IRI>
+        <Literal xml:lang="en">Interoperability Barrier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InteroperabilityCheck</IRI>
+        <Literal xml:lang="en">Interoperability Check</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#JointController</IRI>
+        <Literal xml:lang="en">Joint Controller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LegalAvailability</IRI>
+        <Literal xml:lang="en">Legal Availability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LegalBurdenLack</IRI>
+        <Literal xml:lang="en">Legal Burden/Lack</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LegalEntitlement</IRI>
+        <Literal xml:lang="en">Legal Entitlement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LegalMoment</IRI>
+        <Literal xml:lang="en">Legal Moment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Negotiation</IRI>
+        <Literal xml:lang="en">Negotiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NoRight</IRI>
+        <Literal xml:lang="en">No Right</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NonPersonalData</IRI>
+        <Literal xml:lang="en">Non-Personal Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OutdatedSecurity</IRI>
+        <Literal xml:lang="en">Outdated Security</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OverRestrictiveObligation</IRI>
+        <Literal xml:lang="en">Over Restrictive Obligation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OwnPurpose</IRI>
+        <Literal xml:lang="en">Own Purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Permission</IRI>
+        <Literal xml:lang="en">Permission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PermissionRule</IRI>
+        <Literal xml:lang="en">Permission Rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PersonalData</IRI>
+        <Literal xml:lang="en">Personal Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Policy</IRI>
+        <Literal>A non-empty group of Permissions (via the permission property) and/or Prohibitions )via the prohibition property) and/or Duties (via the obligation property).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Policy</IRI>
+        <Literal xml:lang="en">Policy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PolicyNegotiation</IRI>
+        <Literal xml:lang="en">Policy Negotiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Power</IRI>
+        <Literal xml:lang="en">Power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProcessingPurpose</IRI>
+        <Literal xml:lang="en">Processing Purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProhibitionRule</IRI>
+        <Literal xml:lang="en">Prohibition Rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Restriction</IRI>
+        <Literal xml:lang="en">Restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Right</IRI>
+        <Literal xml:lang="en">Right</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rule</IRI>
+        <Literal xml:lang="en">Rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ServiceConsumer</IRI>
+        <Literal xml:lang="en">Service Consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ServiceContract</IRI>
+        <Literal xml:lang="en">Service Contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ServiceProvider</IRI>
+        <Literal xml:lang="en">Service Provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Subjection</IRI>
+        <Literal xml:lang="en">Subjection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TypeOfContract</IRI>
+        <Literal xml:lang="en">Type of Contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UsageConsent</IRI>
+        <Literal xml:lang="en">Usage Consent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UsageRight</IRI>
+        <Literal xml:lang="en">Usage Right</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#commits</IRI>
+        <Literal xml:lang="en">commits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#compliesTo</IRI>
+        <Literal xml:lang="en">compliesTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#definesCoherence</IRI>
+        <Literal xml:lang="en">definesCoherence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasOwn</IRI>
+        <Literal xml:lang="en">hasOwn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#owns</IRI>
+        <Literal xml:lang="en">owns</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#performedBy</IRI>
+        <Literal xml:lang="en">performedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#performsOffer</IRI>
+        <Literal xml:lang="en">performsOffer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#performsRequest</IRI>
+        <Literal xml:lang="en">performsRequest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#perpetualTransfer</IRI>
+        <Literal xml:lang="en">perpetualTransfer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#temporaryTransfer</IRI>
+        <Literal xml:lang="en">temporaryTransfer</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
