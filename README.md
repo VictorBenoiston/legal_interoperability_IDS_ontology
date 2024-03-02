@@ -1,22 +1,40 @@
 # Legal Interoperability Ontology for IDS - LegIOn-IDS
-This repository contais the complete documentation of the proposed ontology. As an ongoing work, this ontology is one of the efforts towards the representation of a framework to foster the legal interoperability within IDS. We also provide an archive repository with all available work.
+This repository contais the complete documentation of the proposed ontology. As an ongoing work, this ontology is one of the efforts towards the representation of a framework to foster the legal interoperability within IDS. We also provide an archive repository with all available work (systematic literature review, position papers, etc.).
+
+
+[![Static Badge](https://img.shields.io/badge/TOWARDS_LEGAL_INTEROPERABILITY_IN_IDS-Archive-blue?style=for-the-badge&logo=github&color=%23e16775)
+](https://github.com/VictorBenoiston/towards_legal_interoperability_IDS_archive)
+
+[![Static Badge](https://img.shields.io/badge/Dictionary_of_Terms-Glossary-blue?style=for-the-badge&logo=bookstack)](./ISO_dictionary_legion_v1.0.pdf)
+
+
+![Static Badge](https://img.shields.io/badge/Read_the_Docs_Documentation-blue?style=for-the-badge&logo=readthedocs&color=%23f0f0f0) (TBD)
+
+![Static Badge](https://img.shields.io/badge/OWL_DOCS-blue?style=for-the-badge&logo=htmx&logoColor=%23ff001d&color=%23003366)(TBD)
+
+
 
 ## Available Files:
 ```
 .
 ├── README.md
-├── final_ref_ontology (Reference Ontology)
-├── final_operational_ontology (Operational Ontology)
+├── legion_ref_ontology_v1.0 (Reference Ontology)
+├── legion_operational_ontology_v1.0 (Operational Ontology)
 ├── ISO_dictionary (Glossary of terms, providing ISO reuse)
 ```
 
 
-## In this repository:
+## In This Repository:
 [![Static Badge](https://img.shields.io/badge/Ontology_Requirements_Specification_Document-ORSD-orange)](#ontology-requirements-specification-document)
 
-[![Static Badge](https://img.shields.io/badge/Provide_the_ontological_engineering-Lifecycle-green)](#ontology-engineering)
+[![Static Badge](https://img.shields.io/badge/Reference_Ontology-Overview-red?style=flat&color=%232a418a)](#reference-ontology-overview)
 
-[![Static Badge](https://img.shields.io/badge/Provide_the_results_retrieved_by_queries-SPARQL-purple)](#sparql-queries-outcome)
+[![Static Badge](https://img.shields.io/badge/Ontological_Engineering-Lifecycle-green)](#ontology-engineering)
+
+[![Static Badge](https://img.shields.io/badge/Provide_the_Results_Retrieved_by_Queries-SPARQL-purple)](#sparql-queries-outcome)
+
+
+
 
 
 
@@ -51,6 +69,23 @@ The Complete lifecycle development of LegIOn-IDS is summarized below:
 
 
 <img width="800" align="center" src="./assets/legionDevelopmentLifecycle.png">
+<p align=center>Source: Original Authorship (2024)</p>
+
+## Reference Ontology Overview
+
+<img width="800" align="center" src="./assets/mainViewRef.png">
+<p align=center>Source: Original Authorship (2024)</p>
+
+<img width="800" align="center" src="./assets/serviceContractViewRef.png">
+<p align=center>Source: Original Authorship (2024)</p>
+
+<img width="800" align="center" src="./assets/policyViewRef.png">
+<p align=center>Source: Original Authorship (2024)</p>
+
+<img width="800" align="center" src="./assets/legalMomentsViewRef.png">
+<p align=center>Source: Original Authorship (2024)</p>
+
+<img width="800" align="center" src="./assets/legalInteroperabilityViewRef.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
 
@@ -156,5 +191,4 @@ Information Systems, v. 101, p. 101454, nov. 2021. ISSN 0306-4379. Available in:
 SUáREZ-FIGUEROA, M.; GOMEZ-PEREZ, A.; TERRAZAS, B. V. How to Write
 and Use the Ontology Requirements Specification Document. [S.l.: s.n.], 2009. v. 5871.
 982 p. ISBN 978-3-642-05150-0.
-
 
