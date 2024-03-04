@@ -27,9 +27,9 @@ This repository contais the complete documentation of the proposed ontology. As 
 ## In This Repository:
 [![Static Badge](https://img.shields.io/badge/Ontology_Requirements_Specification_Document-ORSD-orange)](#ontology-requirements-specification-document)
 
-[![Static Badge](https://img.shields.io/badge/Reference_Ontology-Overview-red?style=flat&color=%232a418a)](#reference-ontology-overview)
-
 [![Static Badge](https://img.shields.io/badge/Ontological_Engineering-Lifecycle-green)](#ontology-engineering)
+
+[![Static Badge](https://img.shields.io/badge/Reference_Ontology-Overview-red?style=flat&color=%232a418a)](#reference-ontology-overview)
 
 [![Static Badge](https://img.shields.io/badge/Provide_the_Results_Retrieved_by_Queries-SPARQL-purple)](#sparql-queries-outcome)
 
