@@ -5,22 +5,25 @@ This repository contais the complete documentation of the proposed ontology. As 
 [![Static Badge](https://img.shields.io/badge/TOWARDS_LEGAL_INTEROPERABILITY_IN_IDS-Archive-blue?style=for-the-badge&logo=github&color=%23e16775)
 ](https://github.com/VictorBenoiston/towards_legal_interoperability_IDS_archive)
 
-[![Static Badge](https://img.shields.io/badge/Dictionary_of_Terms-Glossary-blue?style=for-the-badge&logo=bookstack)](./ISO_dictionary_legion_v1.0.pdf)
+[![Static Badge](https://img.shields.io/badge/Dictionary_of_terms_glossary-v1.0-green?style=for-the-badge&logo=bookstack)](./ISO_dictionary_legion_v1.1.pdf)
 
 
-![Static Badge](https://img.shields.io/badge/Read_the_Docs_Documentation-blue?style=for-the-badge&logo=readthedocs&color=%23f0f0f0) (TBD)
+![Static Badge](https://img.shields.io/badge/Read_the_docs-v1.0-green?style=for-the-badge&logo=readthedocs)
+ (TBD)
 
-![Static Badge](https://img.shields.io/badge/OWL_DOCS-blue?style=for-the-badge&logo=htmx&logoColor=%23ff001d&color=%23003366)(TBD)
+<!-- ![Static Badge](https://img.shields.io/badge/OWL_DOCS-blue?style=for-the-badge&logo=htmx&logoColor=%23ff001d&color=%23003366) -->
 
+![Static Badge](https://img.shields.io/badge/OWL_docs-v1.0-green?style=for-the-badge&logo=htmx)
 
 
 ## Available Files:
 ```
 .
 ├── README.md
-├── legion_ref_ontology_v1.0 (Reference Ontology)
-├── legion_operational_ontology_v1.0 (Operational Ontology)
-├── ISO_dictionary (Glossary of terms, providing ISO reuse)
+├── legion_ref_ontology (Reference Ontology)                 # Latest version: v1.0.
+├── legion_operational_ontology (Operational Ontology)       # Latest version: v1.1.
+├── ISO_dictionary (Glossary of terms, providing ISO reuse)  # Latest version: v1.0.
+├── owl_docs (Generated OWL documentation)                   # Latest version: v1.0.
 ```
 
 
@@ -32,8 +35,6 @@ This repository contais the complete documentation of the proposed ontology. As 
 [![Static Badge](https://img.shields.io/badge/Reference_Ontology-Overview-red?style=flat&color=%232a418a)](#reference-ontology-overview)
 
 [![Static Badge](https://img.shields.io/badge/Provide_the_Results_Retrieved_by_Queries-SPARQL-purple)](#sparql-queries-outcome)
-
-
 
 
 
@@ -54,6 +55,8 @@ for the proposed ontology.
 <img width="800" align="center" src="./assets/orsd_3.png">
 <p align=center>Source: Original Authorship (2024)</p>
 
+<img width="800" align="center" src="./assets/orsd_4.png">
+<p align=center>Source: Original Authorship (2024)</p>
 
 ## Ontology Engineering
 As methodology for ontology development, we are grounded by the Systematic Approach for Building Ontologies (SABiO). The selected framework for ontology development SABiO describes the Ontology

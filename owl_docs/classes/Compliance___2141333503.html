@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: Compliance</h2>
+
+<div id='annotations_(2)'>
+<h4>Annotations (2)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"1. fulfillment of specified requirements 2. meeting or exceeding all applicable requirements of a standard or other published set of requirements 3. conformance to rules, such as those defined by law, a regulation, a standard, or a policy 4. continual fulfillment to internal and external requirements, rules, and regulations 5. any participant in an IDS-based data exchange must be aware and ensure to take the appropriate measures to act in compliance with applicable laws, in particular with mandatory rules of data protection law (GDPR) and rules of competition law (Griffo et al., 2021)."</span></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Compliance"</span> <span style='color: black;'>@en</span></li>
+</ul>
+</div>
+</div><!-- annotations (2) -->
+
+
+<div id='superclasses_(5)'>
+<h4>Superclasses (5)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Relator___-653730387.html" class='Class' title="http://purl.org/nemo/gufo#Relator">Relator</a></li>
+<li class="asserted"><a href="../objectproperties/historicallyDependsOn___-2055780851.html" class='Object Property' title="http://purl.org/nemo/gufo#historicallyDependsOn">historicallyDependsOn</a> <span class='min'>min</span> 1 <a href="InteroperabilityCheck___1919755212.html" class='Class' title="http://www.legal_interoperability_ontology#InteroperabilityCheck">InteroperabilityCheck</a></li>
+<li class="asserted"><a href="../objectproperties/mediates___-14664164.html" class='Object Property' title="http://purl.org/nemo/gufo#mediates">mediates</a> <span class='min'>min</span> 2 <a href="GoverningLaw___-1446426089.html" class='Class' title="http://www.legal_interoperability_ontology#GoverningLaw">GoverningLaw</a></li>
+<li class="asserted"><span class='keyword'>InverseOf</span> <a href="../objectproperties/mediates___-14664164.html" class='Object Property' title="http://purl.org/nemo/gufo#mediates">mediates</a> <span class='exactly'>exactly</span> 2 <a href="CompetitionLaw___-124374201.html" class='Class' title="http://www.legal_interoperability_ontology#CompetitionLaw">CompetitionLaw</a></li>
+<li class="asserted"><span class='keyword'>InverseOf</span> <a href="../objectproperties/mediates___-14664164.html" class='Object Property' title="http://purl.org/nemo/gufo#mediates">mediates</a> <span class='exactly'>exactly</span> 2 <a href="DataProtectionLaw___-300035037.html" class='Class' title="http://www.legal_interoperability_ontology#DataProtectionLaw">DataProtectionLaw</a></li>
+</ul>
+</div>
+</div><!-- superclasses (5) -->
+
+
+<div id='usage_(5)'>
+<h4>Usage (5)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="CompetitionLaw___-124374201.html" class='Class' title="http://www.legal_interoperability_ontology#CompetitionLaw">CompetitionLaw</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/mediates___-14664164.html" class='Object Property' title="http://purl.org/nemo/gufo#mediates">mediates</a> <span class='min'>min</span> 1 <span class='Class active-entity'>Compliance</span></li>
+<li class="asserted"><a href="ContractualAgreement___-1821290368.html" class='Class' title="http://www.legal_interoperability_ontology#ContractualAgreement">ContractualAgreement</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/generatesCompliance___204985373.html" class='Object Property' title="http://www.legal_interoperability_ontology#generatesCompliance">generatesCompliance</a> <span class='some'>some</span> <span class='Class active-entity'>Compliance</span></li>
+<li class="asserted"><a href="DataProtectionLaw___-300035037.html" class='Class' title="http://www.legal_interoperability_ontology#DataProtectionLaw">DataProtectionLaw</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/mediates___-14664164.html" class='Object Property' title="http://purl.org/nemo/gufo#mediates">mediates</a> <span class='min'>min</span> 1 <span class='Class active-entity'>Compliance</span></li>
+<li class="asserted"><a href="../objectproperties/compares___86178802.html" class='Object Property' title="http://www.legal_interoperability_ontology#compares">compares</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>Compliance</span></li>
+<li class="asserted"><a href="../objectproperties/generatesCompliance___204985373.html" class='Object Property' title="http://www.legal_interoperability_ontology#generatesCompliance">generatesCompliance</a> <span class='keyword'>Range</span> <span class='Class active-entity'>Compliance</span></li>
+</ul>
+</div>
+</div><!-- usage (5) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

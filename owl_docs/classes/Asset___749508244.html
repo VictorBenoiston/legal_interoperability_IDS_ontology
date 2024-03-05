@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: Asset</h2>
+
+<div id='annotations_(2)'>
+<h4>Annotations (2)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"1. plant, machinery, property, buildings, vehicles, ships, aircraft, conveyances and other items of infrastructure or plant and related systems that have a distinct and quantifiable business function or service 2. anything that has value to an individual, an organization or a government 3. manifestation, i.e. physical or digital embodiment of an Expression 4. anything that has value to a stakeholder 5. an asset that exists only in digital form or which is the digital representation of another asset 6. a resource or a collection of resources that are the subject of a Rule (Iannella et al., 2018) 7. may be personal or non-personal data (Iannella et al., 2018)."</span></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Asset"</span> <span style='color: black;'>@en</span></li>
+</ul>
+</div>
+</div><!-- annotations (2) -->
+
+
+<div id='superclasses_(6)'>
+<h4>Superclasses (6)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="CompetitionLaw___-124374201.html" class='Class' title="http://www.legal_interoperability_ontology#CompetitionLaw">CompetitionLaw</a></li>
+<li class="asserted"><a href="../objectproperties/isPerpetuallyTransferedBy___-823325210.html" class='Object Property' title="http://www.legal_interoperability_ontology#isPerpetuallyTransferedBy">isPerpetuallyTransferedBy</a> <span class='some'>some</span> <a href="DataPurchase___-374145361.html" class='Class' title="http://www.legal_interoperability_ontology#DataPurchase">DataPurchase</a> <span class='keyword'>or</span> <a href="../objectproperties/isTemporallyTransferedBy___-1480218850.html" class='Object Property' title="http://www.legal_interoperability_ontology#isTemporallyTransferedBy">isTemporallyTransferedBy</a> <span class='some'>some</span> <a href="DataAsAService___1235526804.html" class='Class' title="http://www.legal_interoperability_ontology#DataAsAService">DataAsAService</a></li>
+<li class="inferred"><a href="../objectproperties/isAnalyzedBy___1918707613.html" class='Object Property' title="http://www.legal_interoperability_ontology#isAnalyzedBy">isAnalyzedBy</a> <span class='some'>some</span> <a href="InteroperabilityCheck___1919755212.html" class='Class' title="http://www.legal_interoperability_ontology#InteroperabilityCheck">InteroperabilityCheck</a></li>
+<li class="asserted"><a href="../objectproperties/isOperatedBy___-1433702299.html" class='Object Property' title="http://www.legal_interoperability_ontology#isOperatedBy">isOperatedBy</a> <span class='some'>some</span> <a href="Action___-1653144038.html" class='Class' title="http://www.legal_interoperability_ontology#Action">Action</a></li>
+<li class="inferred"><a href="../objectproperties/mediates___-14664164.html" class='Object Property' title="http://purl.org/nemo/gufo#mediates">mediates</a> <span class='min'>min</span> 1 <a href="Compliance___2141333503.html" class='Class' title="http://www.legal_interoperability_ontology#Compliance">Compliance</a></li>
+<li class="asserted"><a href="../objectproperties/usageIsAllowedBy___-221238920.html" class='Object Property' title="http://www.legal_interoperability_ontology#usageIsAllowedBy">usageIsAllowedBy</a> <span class='exactly'>exactly</span> 1 <a href="UsageRight___906307807.html" class='Class' title="http://www.legal_interoperability_ontology#UsageRight">UsageRight</a></li>
+</ul>
+</div>
+</div><!-- superclasses (6) -->
+
+
+<div id='usage_(10)'>
+<h4>Usage (10)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Action___-1653144038.html" class='Class' title="http://www.legal_interoperability_ontology#Action">Action</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/operatesOn___690007410.html" class='Object Property' title="http://www.legal_interoperability_ontology#operatesOn">operatesOn</a> <span class='some'>some</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="DataAsAService___1235526804.html" class='Class' title="http://www.legal_interoperability_ontology#DataAsAService">DataAsAService</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/temporaryTransfer___934237472.html" class='Object Property' title="http://www.legal_interoperability_ontology#temporaryTransfer">temporaryTransfer</a> <span class='some'>some</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="DataPurchase___-374145361.html" class='Class' title="http://www.legal_interoperability_ontology#DataPurchase">DataPurchase</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/perpetualTransfer___1444530957.html" class='Object Property' title="http://www.legal_interoperability_ontology#perpetualTransfer">perpetualTransfer</a> <span class='some'>some</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="ServiceProvider___-67895446.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceProvider">ServiceProvider</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/owns___689364337.html" class='Object Property' title="http://www.legal_interoperability_ontology#owns">owns</a> <span class='some'>some</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="UsageRight___906307807.html" class='Class' title="http://www.legal_interoperability_ontology#UsageRight">UsageRight</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/allowsUsageOf___1945782642.html" class='Object Property' title="http://www.legal_interoperability_ontology#allowsUsageOf">allowsUsageOf</a> <span class='some'>some</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="../objectproperties/allowsUsageOf___1945782642.html" class='Object Property' title="http://www.legal_interoperability_ontology#allowsUsageOf">allowsUsageOf</a> <span class='keyword'>Range</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="../objectproperties/operatesOn___690007410.html" class='Object Property' title="http://www.legal_interoperability_ontology#operatesOn">operatesOn</a> <span class='keyword'>Range</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="../objectproperties/owns___689364337.html" class='Object Property' title="http://www.legal_interoperability_ontology#owns">owns</a> <span class='keyword'>Range</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="../objectproperties/perpetualTransfer___1444530957.html" class='Object Property' title="http://www.legal_interoperability_ontology#perpetualTransfer">perpetualTransfer</a> <span class='keyword'>Range</span> <span class='Class active-entity'>Asset</span></li>
+<li class="asserted"><a href="../objectproperties/temporaryTransfer___934237472.html" class='Object Property' title="http://www.legal_interoperability_ontology#temporaryTransfer">temporaryTransfer</a> <span class='keyword'>Range</span> <span class='Class active-entity'>Asset</span></li>
+</ul>
+</div>
+</div><!-- usage (10) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

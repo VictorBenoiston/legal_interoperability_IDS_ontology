@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: ContractualAgreement</h2>
+
+<div id='annotations_(2)'>
+<h4>Annotations (2)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"1. (agreement) mutual acknowledgement of terms and conditions under which a working relationship is conducted 2. data sharing agreement, memorandum of understanding, data access request, contract and any other formally documented agreement 3. responsible for bounding together the contractual parties in order to support the data exchange between the data provider and data consumer."</span></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Contractual Agreement"</span> <span style='color: black;'>@en</span></li>
+</ul>
+</div>
+</div><!-- annotations (2) -->
+
+
+<div id='superclasses_(10)'>
+<h4>Superclasses (10)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="ServiceContract___352651915.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceContract">ServiceContract</a></li>
+<li class="asserted"><a href="../objectproperties/agreementIsAllowedBy___517843311.html" class='Object Property' title="http://www.legal_interoperability_ontology#agreementIsAllowedBy">agreementIsAllowedBy</a> <span class='some'>some</span> <a href="ContractNegotiation___-1969588461.html" class='Class' title="http://www.legal_interoperability_ontology#ContractNegotiation">ContractNegotiation</a></li>
+<li class="asserted"><a href="../objectproperties/definesUsageConsent___-754950859.html" class='Object Property' title="http://www.legal_interoperability_ontology#definesUsageConsent">definesUsageConsent</a> <span class='some'>some</span> <a href="UsageConsent___1757242141.html" class='Class' title="http://www.legal_interoperability_ontology#UsageConsent">UsageConsent</a></li>
+<li class="asserted"><a href="../objectproperties/generatesCompliance___204985373.html" class='Object Property' title="http://www.legal_interoperability_ontology#generatesCompliance">generatesCompliance</a> <span class='some'>some</span> <a href="Compliance___2141333503.html" class='Class' title="http://www.legal_interoperability_ontology#Compliance">Compliance</a></li>
+<li class="inferred"><a href="../objectproperties/isComposedBy___-1880595049.html" class='Object Property' title="http://www.legal_interoperability_ontology#isComposedBy">isComposedBy</a> <span class='some'>some</span> <a href="Policy___-1212863210.html" class='Class' title="http://www.legal_interoperability_ontology#Policy">Policy</a></li>
+<li class="inferred"><a href="../objectproperties/allowsNegotiation___807012091.html" class='Object Property' title="http://www.legal_interoperability_ontology#allowsNegotiation">allowsNegotiation</a> <span class='min'>min</span> 1 <a href="ContractNegotiation___-1969588461.html" class='Class' title="http://www.legal_interoperability_ontology#ContractNegotiation">ContractNegotiation</a></li>
+<li class="inferred"><a href="../objectproperties/hasServiceCustomer___454631293.html" class='Object Property' title="http://www.legal_interoperability_ontology#hasServiceCustomer">hasServiceCustomer</a> <span class='exactly'>exactly</span> 1 <a href="ServiceCustomer___1525774679.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceCustomer">ServiceCustomer</a></li>
+<li class="inferred"><a href="../objectproperties/hasServiceProvider___-1139038832.html" class='Object Property' title="http://www.legal_interoperability_ontology#hasServiceProvider">hasServiceProvider</a> <span class='exactly'>exactly</span> 1 <a href="ServiceProvider___-67895446.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceProvider">ServiceProvider</a></li>
+<li class="asserted"><a href="../objectproperties/isAgreedBy___1725251773.html" class='Object Property' title="http://www.legal_interoperability_ontology#isAgreedBy">isAgreedBy</a> <span class='exactly'>exactly</span> 1 <a href="ServiceCustomer___1525774679.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceCustomer">ServiceCustomer</a></li>
+<li class="asserted"><a href="../objectproperties/isAgreedBy___1725251773.html" class='Object Property' title="http://www.legal_interoperability_ontology#isAgreedBy">isAgreedBy</a> <span class='exactly'>exactly</span> 1 <a href="ServiceProvider___-67895446.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceProvider">ServiceProvider</a></li>
+</ul>
+</div>
+</div><!-- superclasses (10) -->
+
+
+<div id='usage_(8)'>
+<h4>Usage (8)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="ContractNegotiation___-1969588461.html" class='Class' title="http://www.legal_interoperability_ontology#ContractNegotiation">ContractNegotiation</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/allowsAgreement___416070308.html" class='Object Property' title="http://www.legal_interoperability_ontology#allowsAgreement">allowsAgreement</a> <span class='min'>min</span> 1 <span class='Class active-entity'>ContractualAgreement</span></li>
+<li class="asserted"><a href="ServiceCustomer___1525774679.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceCustomer">ServiceCustomer</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/agrees___-733380853.html" class='Object Property' title="http://www.legal_interoperability_ontology#agrees">agrees</a> <span class='exactly'>exactly</span> 1 <span class='Class active-entity'>ContractualAgreement</span></li>
+<li class="asserted"><a href="ServiceProvider___-67895446.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceProvider">ServiceProvider</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/agrees___-733380853.html" class='Object Property' title="http://www.legal_interoperability_ontology#agrees">agrees</a> <span class='exactly'>exactly</span> 1 <span class='Class active-entity'>ContractualAgreement</span></li>
+<li class="asserted"><a href="UsageConsent___1757242141.html" class='Class' title="http://www.legal_interoperability_ontology#UsageConsent">UsageConsent</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/isDefinedBy___584574458.html" class='Object Property' title="http://www.legal_interoperability_ontology#isDefinedBy">isDefinedBy</a> <span class='exactly'>exactly</span> 1 <span class='Class active-entity'>ContractualAgreement</span></li>
+<li class="asserted"><a href="../objectproperties/agreementIsAllowedBy___517843311.html" class='Object Property' title="http://www.legal_interoperability_ontology#agreementIsAllowedBy">agreementIsAllowedBy</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>ContractualAgreement</span></li>
+<li class="asserted"><a href="../objectproperties/definesUsageConsent___-754950859.html" class='Object Property' title="http://www.legal_interoperability_ontology#definesUsageConsent">definesUsageConsent</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>ContractualAgreement</span></li>
+<li class="asserted"><a href="../objectproperties/generatesCompliance___204985373.html" class='Object Property' title="http://www.legal_interoperability_ontology#generatesCompliance">generatesCompliance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>ContractualAgreement</span></li>
+<li class="asserted"><a href="../objectproperties/agrees___-733380853.html" class='Object Property' title="http://www.legal_interoperability_ontology#agrees">agrees</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ContractualAgreement</span></li>
+</ul>
+</div>
+</div><!-- usage (8) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

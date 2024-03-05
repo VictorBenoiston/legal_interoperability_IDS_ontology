@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: ContractNegotiation</h2>
+
+<div id='annotations_(2)'>
+<h4>Annotations (2)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"1. (negotiation) the process and activities to resolving disputes through consultations between involved parties 2. when contracting parties interact for achieving mutual agreement (Griffo et al., 2021)."</span></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Contract Negotiation"</span> <span style='color: black;'>@en</span></li>
+</ul>
+</div>
+</div><!-- annotations (2) -->
+
+
+<div id='superclasses_(7)'>
+<h4>Superclasses (7)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Relator___-653730387.html" class='Class' title="http://purl.org/nemo/gufo#Relator">Relator</a></li>
+<li class="asserted"><a href="../objectproperties/definesPurpose___378947498.html" class='Object Property' title="http://www.legal_interoperability_ontology#definesPurpose">definesPurpose</a> <span class='some'>some</span> <a href="ProcessingPurpose___-1706772945.html" class='Class' title="http://www.legal_interoperability_ontology#ProcessingPurpose">ProcessingPurpose</a></li>
+<li class="asserted"><a href="../objectproperties/allowsAgreement___416070308.html" class='Object Property' title="http://www.legal_interoperability_ontology#allowsAgreement">allowsAgreement</a> <span class='min'>min</span> 1 <a href="ContractualAgreement___-1821290368.html" class='Class' title="http://www.legal_interoperability_ontology#ContractualAgreement">ContractualAgreement</a></li>
+<li class="asserted"><a href="../objectproperties/definesTypeOfContract___1525949151.html" class='Object Property' title="http://www.legal_interoperability_ontology#definesTypeOfContract">definesTypeOfContract</a> <span class='exactly'>exactly</span> 1 <a href="TypeOfContract___1971801799.html" class='Class' title="http://www.legal_interoperability_ontology#TypeOfContract">TypeOfContract</a></li>
+<li class="asserted"><a href="../objectproperties/isNegotiatedBy___198741675.html" class='Object Property' title="http://www.legal_interoperability_ontology#isNegotiatedBy">isNegotiatedBy</a> <span class='exactly'>exactly</span> 1 <a href="ServiceCustomer___1525774679.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceCustomer">ServiceCustomer</a></li>
+<li class="asserted"><a href="../objectproperties/isNegotiatedBy___198741675.html" class='Object Property' title="http://www.legal_interoperability_ontology#isNegotiatedBy">isNegotiatedBy</a> <span class='exactly'>exactly</span> 1 <a href="ServiceProvider___-67895446.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceProvider">ServiceProvider</a></li>
+<li class="asserted"><a href="../objectproperties/negotiationIsAllowedBy___-1038171336.html" class='Object Property' title="http://www.legal_interoperability_ontology#negotiationIsAllowedBy">negotiationIsAllowedBy</a> <span class='exactly'>exactly</span> 1 <a href="ServiceContract___352651915.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceContract">ServiceContract</a></li>
+</ul>
+</div>
+</div><!-- superclasses (7) -->
+
+
+<div id='usage_(11)'>
+<h4>Usage (11)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="ContractualAgreement___-1821290368.html" class='Class' title="http://www.legal_interoperability_ontology#ContractualAgreement">ContractualAgreement</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/agreementIsAllowedBy___517843311.html" class='Object Property' title="http://www.legal_interoperability_ontology#agreementIsAllowedBy">agreementIsAllowedBy</a> <span class='some'>some</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="ProcessingPurpose___-1706772945.html" class='Class' title="http://www.legal_interoperability_ontology#ProcessingPurpose">ProcessingPurpose</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/PurposeIsDefinedBy___-1316319716.html" class='Object Property' title="http://www.legal_interoperability_ontology#PurposeIsDefinedBy">PurposeIsDefinedBy</a> <span class='some'>some</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="ServiceContract___352651915.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceContract">ServiceContract</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/allowsNegotiation___807012091.html" class='Object Property' title="http://www.legal_interoperability_ontology#allowsNegotiation">allowsNegotiation</a> <span class='min'>min</span> 1 <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="ServiceCustomer___1525774679.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceCustomer">ServiceCustomer</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/performsNegotiation___740091667.html" class='Object Property' title="http://www.legal_interoperability_ontology#performsNegotiation">performsNegotiation</a> <span class='some'>some</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="ServiceProvider___-67895446.html" class='Class' title="http://www.legal_interoperability_ontology#ServiceProvider">ServiceProvider</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/performsNegotiation___740091667.html" class='Object Property' title="http://www.legal_interoperability_ontology#performsNegotiation">performsNegotiation</a> <span class='some'>some</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="TypeOfContract___1971801799.html" class='Class' title="http://www.legal_interoperability_ontology#TypeOfContract">TypeOfContract</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/TypeOfContracIsDefinedBy___-2047895127.html" class='Object Property' title="http://www.legal_interoperability_ontology#TypeOfContracIsDefinedBy">TypeOfContracIsDefinedBy</a> <span class='min'>min</span> 1 <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="../objectproperties/definesPurpose___378947498.html" class='Object Property' title="http://www.legal_interoperability_ontology#definesPurpose">definesPurpose</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="../objectproperties/definesTypeOfContract___1525949151.html" class='Object Property' title="http://www.legal_interoperability_ontology#definesTypeOfContract">definesTypeOfContract</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="../objectproperties/agreementIsAllowedBy___517843311.html" class='Object Property' title="http://www.legal_interoperability_ontology#agreementIsAllowedBy">agreementIsAllowedBy</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="../objectproperties/allowsNegotiation___807012091.html" class='Object Property' title="http://www.legal_interoperability_ontology#allowsNegotiation">allowsNegotiation</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+<li class="asserted"><a href="../objectproperties/performsNegotiation___740091667.html" class='Object Property' title="http://www.legal_interoperability_ontology#performsNegotiation">performsNegotiation</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ContractNegotiation</span></li>
+</ul>
+</div>
+</div><!-- usage (11) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

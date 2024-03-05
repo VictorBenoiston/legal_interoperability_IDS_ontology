@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: LegalBurdenLack</h2>
+
+<div id='annotations_(2)'>
+<h4>Annotations (2)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"1. (Burden) a deontic token encapsulating the statement of an obligation on the active enterprise object holding it, thereby modifying the urgency of the active enterprise object in performing associated conditional actions within its behavior 2. the provenance of a negative inquisition (Adapted from SCO) 3. Legal positions that imply some legal burden or lack of entitlement (Griffo et al., 2021)."</span></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Legal Burden/Lack"</span> <span style='color: black;'>@en</span></li>
+</ul>
+</div>
+</div><!-- annotations (2) -->
+
+
+<div id='superclasses_(5)'>
+<h4>Superclasses (5)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="LegalMoment___-1670289987.html" class='Class' title="http://www.legal_interoperability_ontology#LegalMoment">LegalMoment</a></li>
+<li class="inferred"><a href="../objectproperties/composes___86596837.html" class='Object Property' title="http://www.legal_interoperability_ontology#composes">composes</a> <span class='some'>some</span> <a href="Policy___-1212863210.html" class='Class' title="http://www.legal_interoperability_ontology#Policy">Policy</a></li>
+<li class="inferred"><a href="../objectproperties/correspondingTo___1253329618.html" class='Object Property' title="http://www.legal_interoperability_ontology#correspondingTo">correspondingTo</a> <span class='some'>some</span> <a href="LegalMoment___-1670289987.html" class='Class' title="http://www.legal_interoperability_ontology#LegalMoment">LegalMoment</a></li>
+<li class="inferred"><a href="../objectproperties/correspondingTo___1253329618.html" class='Object Property' title="http://www.legal_interoperability_ontology#correspondingTo">correspondingTo</a> <span class='some'>some</span> <a href="Rule___688498400.html" class='Class' title="http://www.legal_interoperability_ontology#Rule">Rule</a></li>
+<li class="inferred"><a href="../objectproperties/undergoes___-341167566.html" class='Object Property' title="http://www.legal_interoperability_ontology#undergoes">undergoes</a> <span class='some'>some</span> <a href="PolicyNegotiation___-1170045197.html" class='Class' title="http://www.legal_interoperability_ontology#PolicyNegotiation">PolicyNegotiation</a></li>
+</ul>
+</div>
+</div><!-- superclasses (5) -->
+
+
+<div id='disjoints_(2)'>
+<h4>Disjoints (2)</h4>
+<div class='codebox'>
+<span class="asserted"><span class='Class active-entity'>LegalBurdenLack</span></span>,
+<span class="asserted"><a href="LegalEntitlement___-1400515432.html" class='Class' title="http://www.legal_interoperability_ontology#LegalEntitlement">LegalEntitlement</a></span></div>
+</div><!-- disjoints (2) -->
+
+
+<div id='usage_(3)'>
+<h4>Usage (3)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="DutyRule___-1163007274.html" class='Class' title="http://www.legal_interoperability_ontology#DutyRule">DutyRule</a> <span class='keyword'>&equiv;</span> <a href="Rule___688498400.html" class='Class' title="http://www.legal_interoperability_ontology#Rule">Rule</a> <span class='keyword'>and</span> <a href="../objectproperties/correspondingTo___1253329618.html" class='Object Property' title="http://www.legal_interoperability_ontology#correspondingTo">correspondingTo</a> <span class='some'>some</span> <span class='Class active-entity'>LegalBurdenLack</span> <span class='keyword'>or</span> <a href="../objectproperties/correspondingTo___1253329618.html" class='Object Property' title="http://www.legal_interoperability_ontology#correspondingTo">correspondingTo</a> <span class='some'>some</span> <a href="LegalEntitlement___-1400515432.html" class='Class' title="http://www.legal_interoperability_ontology#LegalEntitlement">LegalEntitlement</a> <span class='keyword'>and</span> <a href="../objectproperties/obligates___1089015868.html" class='Object Property' title="http://www.legal_interoperability_ontology#obligates">obligates</a> <span class='only'>only</span> <a href="Action___-1653144038.html" class='Class' title="http://www.legal_interoperability_ontology#Action">Action</a></li>
+<li class="asserted"><a href="ProhibitionRule___1262777353.html" class='Class' title="http://www.legal_interoperability_ontology#ProhibitionRule">ProhibitionRule</a> <span class='keyword'>&equiv;</span> <a href="Rule___688498400.html" class='Class' title="http://www.legal_interoperability_ontology#Rule">Rule</a> <span class='keyword'>and</span> <a href="../objectproperties/correspondingTo___1253329618.html" class='Object Property' title="http://www.legal_interoperability_ontology#correspondingTo">correspondingTo</a> <span class='some'>some</span> <span class='Class active-entity'>LegalBurdenLack</span> <span class='keyword'>and</span> <a href="../objectproperties/denies___-649455762.html" class='Object Property' title="http://www.legal_interoperability_ontology#denies">denies</a> <span class='only'>only</span> <a href="Action___-1653144038.html" class='Class' title="http://www.legal_interoperability_ontology#Action">Action</a></li>
+<li class="asserted"><a href="../objectproperties/hasLegalBurdenLack___-1054366642.html" class='Object Property' title="http://www.legal_interoperability_ontology#hasLegalBurdenLack">hasLegalBurdenLack</a> <span class='keyword'>Range</span> <span class='Class active-entity'>LegalBurdenLack</span></li>
+</ul>
+</div>
+</div><!-- usage (3) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>
