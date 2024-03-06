@@ -1,5 +1,11 @@
 # Legal Interoperability Ontology for IDS - LegIOn-IDS
+
+<img src="./owl_docs/assets/logo.png" width='500px'></img>
+
+<!-- ![Static Badge](https://img.shields.io/badge/version-1.1-green?style=flat) -->
+
 This repository contais the complete documentation of the proposed ontology. As an ongoing work, this ontology is one of the efforts towards the representation of a framework to foster the legal interoperability within IDS. We also provide an archive repository with all available work (systematic literature review, position papers, etc.).
+
 
 
 [![Static Badge](https://img.shields.io/badge/TOWARDS_LEGAL_INTEROPERABILITY_IN_IDS-Archive-blue?style=for-the-badge&logo=github&color=%23e16775)
@@ -8,12 +14,12 @@ This repository contais the complete documentation of the proposed ontology. As 
 [![Static Badge](https://img.shields.io/badge/Dictionary_of_terms_glossary-v1.0-green?style=for-the-badge&logo=bookstack)](./ISO_dictionary_legion_v1.1.pdf)
 
 
-![Static Badge](https://img.shields.io/badge/Read_the_docs-v1.0-green?style=for-the-badge&logo=readthedocs)
- (TBD)
+<!-- ![Static Badge](https://img.shields.io/badge/Read_the_docs-v1.0-green?style=for-the-badge&logo=readthedocs)
+ (TBD) -->
 
 <!-- ![Static Badge](https://img.shields.io/badge/OWL_DOCS-blue?style=for-the-badge&logo=htmx&logoColor=%23ff001d&color=%23003366) -->
 
-![Static Badge](https://img.shields.io/badge/OWL_docs-v1.0-green?style=for-the-badge&logo=htmx)
+[![Static Badge](https://img.shields.io/badge/OWL_docs-v1.0-green?style=for-the-badge&logo=htmx)](https://legionids.netlify.app/)
 
 
 ## Available Files:

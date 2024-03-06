@@ -784,16 +784,6 @@ Current version: v.1.1</Literal>
         <Class IRI="#DutyRule"/>
         <ObjectIntersectionOf>
             <Class IRI="#Rule"/>
-            <ObjectUnionOf>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#correspondingTo"/>
-                    <Class IRI="#LegalBurdenLack"/>
-                </ObjectSomeValuesFrom>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#correspondingTo"/>
-                    <Class IRI="#LegalEntitlement"/>
-                </ObjectSomeValuesFrom>
-            </ObjectUnionOf>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="#obligates"/>
                 <Class IRI="#Action"/>
@@ -2912,10 +2902,6 @@ Current version: v.1.1</Literal>
         <Class IRI="#GoverningLaw"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#correspondingTo"/>
-        <Class IRI="#Rule"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#createsLegalAvailability"/>
         <Class IRI="#InteroperabilityCheck"/>
     </ObjectPropertyDomain>
@@ -3079,10 +3065,6 @@ Current version: v.1.1</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#compliesTo"/>
         <Class IRI="#GoverningLaw"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#correspondingTo"/>
-        <Class IRI="#LegalMoment"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#createsLegalAvailability"/>
