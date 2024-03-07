@@ -19,7 +19,11 @@ This repository contais the complete documentation of the proposed ontology. As 
 
 <!-- ![Static Badge](https://img.shields.io/badge/OWL_DOCS-blue?style=for-the-badge&logo=htmx&logoColor=%23ff001d&color=%23003366) -->
 
-[![Static Badge](https://img.shields.io/badge/OWL_docs-v1.0-green?style=for-the-badge&logo=htmx)](https://legionids.netlify.app/)
+
+<a href="https://legionids.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/OWL_Documentation-v1.0-green?style=for-the-badge&logo=htmx" alt="Static Badge">
+</a>
+
 
 
 ## Available Files:
