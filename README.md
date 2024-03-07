@@ -4,7 +4,7 @@
 
 <!-- ![Static Badge](https://img.shields.io/badge/version-1.1-green?style=flat) -->
 
-This repository contais the complete documentation of the proposed ontology. As an ongoing work, this ontology is one of the efforts towards the representation of a framework to foster the legal interoperability within IDS. We also provide an archive repository with all available work (systematic literature review, position papers, etc.).
+This repository contais the complete documentation of the proposed ontology. As an ongoing work, this ontology is one of the efforts towards the representation of a framework to foster the legal interoperability within International Data Spaces (IDS). The Legal Interoperability Ontology for International Data Spaces (LegIOn-IDS) provides a domain description, and formalizes knowledge regarding the legal nuances envolved in a contract, based on the IDS architecture. It follows the fair principles, and reuses several top-level and domain ontologies. We also provide an archive repository with all available work (systematic literature review, position papers, etc.).
 
 
 
